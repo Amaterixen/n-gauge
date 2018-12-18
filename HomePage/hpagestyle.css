@@ -1,0 +1,361 @@
+.imamargin{
+    margin-left:25px;
+    float:left;
+}
+
+.searchbar{
+    height:100%;
+    background-color:#e5eced;
+    width:100%;
+}
+
+.homepbutton{
+    display:inline;
+    float:right;
+}
+
+.btnhome{
+    margin:0;
+    margin-top:3px;
+    background-color:#034452;
+    color:white;
+}
+
+.welcomenote{
+    margin-top:5px;
+}
+
+.leftsidemenus{
+    display:block;
+}
+
+.profimgbox{
+   /* position:absolute; */
+    margin-top:20px;
+    height: 128px;
+    width: 128px;
+    margin-left:25px;
+}
+
+.recommendusers{
+    position:relative;
+    display:block;
+    margin-top:20px;
+    width:750px;
+    height:640px;
+    float:left;
+    background-color:#e5eced;
+    box-shadow:3px 3px 10px grey;
+}
+
+.recommendheader{
+    position:absolute;
+    height: 80px;
+    width:750px;
+    background-color:#ffffff;
+    border-style:solid;
+    border-color:#034452;
+    float:left;
+    text-align:center;
+    vertical-align:middle;
+    line-height:75px;
+    font-family:arial;
+    font-size:20px;
+}
+.recommendbody{
+    position:absolute;
+    height:560px;
+    margin-top:80px;
+    width:750px;
+    background-color:#e5eced;
+    box-shadow:3px 3px 10px grey;
+    overflow-y:auto;
+}
+.scrollmenu{
+    top:0;
+    position:relative;
+    margin:10px;
+    overflow:auto;
+    word-wrap:break-word;
+}
+
+.sidescroll{
+    top:0;
+    position:relative;
+    margin:10px;
+    overflow:auto;
+    word-wrap:break-word;
+}
+
+.profbuttonbody{
+    float:right;
+    margin-top:20px;
+    margin-right: 20px;
+}
+
+.profbutton{
+    font-family:arial;
+    font-size:20px;
+    text-align:center;
+    height: 100px;
+    width: 100px;
+    background-color:#034452;
+    border-radius: 50%;
+    margin-bottom:20px;
+}
+
+.form{
+    text-align:center;
+}
+
+.formbackground{
+    padding-top:30px;
+    background-color:#034452;
+    padding-bottom:50px;
+    border-radius:30px;
+}
+
+/*
+.tagcolour{
+    color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+*/
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.backgroundimg{
+    background-color:#e5eced;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+
+.headtop{
+    float:left;
+}
+
+.logoplace{
+    padding-left:30px;
+    padding-top:30px;
+    
+    height:auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.form2{
+    float:right;
+}
+
+.footer{
+    height:50px;
+    width:100%;
+    background-color:#e5eced;
+}
+
+.friendrequests{
+    position:relative;
+    margin-top:20px;
+    margin-left:25px;
+    float:left;
+    height:490px;
+    width:350px;
+    background-color:#e5eced;
+    box-shadow:3px 3px 10px grey;
+}
+
+.friendheader{
+    position:absolute;
+    height: 60px;
+    width:350px;
+    background-color:#ffffff;
+    border-style:solid;
+    border-color:#034452;
+    text-align:center;
+    vertical-align:middle;
+    line-height:55px;
+    font-family:arial;
+    font-size:20px;
+}
+
+.friendbody{
+    position:absolute;
+    margin-top:60px;
+    max-height:430px;
+    max-width:350px;
+    background-color:#e5eced;
+    word-wrap:break-word;
+    overflow-y:auto;
+    
+}
+
+.gamesbox{
+    margin-top:20px;
+    margin-right:25px;
+    margin-bottom:20px;
+    position:relative;
+    float:right;
+    height:640px;
+    width:350px;
+    background-color:#e5eced;
+    box-shadow:3px 3px 10px grey;
+}
+
+.gamesheader{
+    position:absolute;
+    height: 60px;
+    width:350px;
+    background-color:#ffffff;
+    border-style:solid;
+    border-color:#034452;
+    text-align:center;
+    vertical-align:middle;
+    line-height:55px;
+    font-family:arial;
+    font-size:20px;
+}
+.gamesearch{
+    margin-top:60px;
+    position:absolute;
+    height:45px;
+    width:350px;
+    text-align:center;
+    line-height:35px;
+    font-family:arial;
+    font-size:20px;
+    font-size: 13px;
+    display: block;
+}
+
+.gamesbody{
+    position:absolute;
+    margin-top:102px;
+    max-height:538px;
+    max-width:350px;
+    background-color:#e5eced;
+    word-wrap:break-word;
+    overflow-y:auto;
+}
+
+.gamesearch{
+    height:40px;
+    margin-top:60px;
+    font-size:0px;
+    display:flex;
+}
+
+.searchentry{
+    margin:0;
+    width:275px;
+    font-size:18px;
+}
+
+.submitbox{
+    margin:0;
+    width:75px;
+    font-size:18px;
+}
+
+.myfriendbox{
+    margin-left:100px;
+    margin-top:20px;
+    position:relative;
+    display:block;
+    width:650px;
+    height:640px;
+    float:left;
+    background-color:#e5eced;
+    box-shadow:3px 3px 10px grey;
+}
+
+.myfriendheader{
+    position:absolute;
+    height: 80px;
+    width:650px;
+    background-color:#ffffff;
+    border-style:solid;
+    border-color:#034452;
+    float:left;
+    text-align:center;
+    vertical-align:middle;
+    line-height:75px;
+    font-family:arial;
+    font-size:20px;
+}
+
+.myfriendbody{
+    position:absolute;
+    height:560px;
+    margin-top:80px;
+    width:650px;
+    background-color:#e5eced;
+    box-shadow:3px 3px 10px grey;
+    overflow-y:auto;
+}
+
+.mygamesbox{
+    margin-right:100px;
+    position:relative;
+    display:block;
+    margin-top:20px;
+    width:650px;
+    height:640px;
+    float:right;
+    background-color:#e5eced;
+    box-shadow:3px 3px 10px grey;
+}
+
+.mygamesheader{
+    position:absolute;
+    height: 80px;
+    width:650px;
+    background-color:#ffffff;
+    border-style:solid;
+    border-color:#034452;
+    float:left;
+    text-align:center;
+    vertical-align:middle;
+    line-height:75px;
+    font-family:arial;
+    font-size:20px;
+}
+
+.mygamesbody{
+    position:absolute;
+    height:560px;
+    margin-top:80px;
+    width:650px;
+    background-color:#e5eced;
+    box-shadow:3px 3px 10px grey;
+    overflow-y:auto;
+}
+
+.iamfooter{
+    color:white;
+    font-size:16px;
+    height:50px;
+    display:block;
+    line-height:44px;
+    text-align:center;
+    background-color:#034452;
+}
